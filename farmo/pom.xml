@@ -35,6 +35,17 @@
 		</dependency>
 		
 		<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20180130</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.5</version>
+</dependency>
+		
+		<dependency>
     <groupId>io.springfox</groupId>
 	    <artifactId>springfox-swagger2</artifactId>
 	    <version>3.0.0</version>
