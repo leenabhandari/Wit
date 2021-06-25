@@ -1,0 +1,80 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<div (load)="getResults()"></div>
+
+    
+    
+    <div class="container">
+        <section id="cart">
+            <div class="w3-panel w3-card-4">
+                <h1>Result</h1>
+                <h6>
+                    <b>
+                    According to the algorithm, with the details that you've entered, <span style="color: blue;">{{outputData.crops}} </span>is the best suitable
+                    crop for the weather at your location. Prediction says that the crops may be infected by
+                    <span style="color: blue;">{{outputData.diseases}}</span>.
+                    <br>
+                    To best tackle loses due to pests and diseases and to improve the quality of produce, we recomment the following
+                    items.</b>
+                </h6>
+            </div>
+            <div *ngFor="let c of outputData.products">
+            <article class="product">
+                <header>
+                    <a class="remove">
+                        <img src="{{c.imgString}}"  alt="">
+    
+                        
+                    </a>
+                </header>
+    
+                <div class="content">
+    
+                    <h6 >{{c.titleString}}</h6>
+    
+    
+                    <!-- <div title="You have selected this product to be shipped in the color yellow." style="top: 0"
+                        class="color yellow"> -->
+                    <button class="color yellow" (click)="goToURL(c.urlString)" style="top: 0">More Info</button></div>
+                   
+    
+                <footer class="content">
+                    
+    
+                    <h2 class="full-price">
+                    {{c.priceLong}} ₹
+                    </h2>
+    
+               
+                </footer>
+            </article>
+    
+        </div>
+    
+        </section>
+    
+    </div>
+<!-- 
+<article class="leaderboard">
+    <header>
+
+        <h1 class="leaderboard__title"><span class="leaderboard__title--top">Forbes</span><span
+                class="leaderboard__title--bottom">Leaderboard</span></h1>
+    </header>
+
+
+    <main class="leaderboard__profiles">
+        <div *ngFor="let c of outputData.products">
+            <article class="leaderboard__profile">
+                <img class="leaderboard__picture" src="{{c.imgString}}" alt="{{c.cropString}} ">
+                <span class="leaderboard__name">{{c.titleString}}</span>
+                <span class="leaderboard__value">{{c.priceLong}}<span>₹</span></span>
+                <button mat-raised-button (click)="goToURL(c.urlString)" color="primary">More</button>
+            </article>
+            </div>
+        
+
+       
+    </main> -->
+    

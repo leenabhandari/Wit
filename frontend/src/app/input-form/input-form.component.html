@@ -1,0 +1,30 @@
+<!-- <h1 class="fs-title">Agri-Assist</h1>
+<h5 class="fs-subtitle">Submit details to get recommendations</h5> -->
+<!-- multistep form -->
+<form id="msform" (ngSubmit)="onSubmit()" #myForm="ngForm">
+    <!-- progressbar -->
+    <!-- <ul id="progressbar">
+        <li class="active">Account Setup</li>
+        <li>Social Profiles</li>
+        <li>Personal Details</li>
+    </ul> -->
+    <!-- fieldsets -->
+
+    <fieldset>
+        <h2 class="fs-title">Agri-Assist</h2>
+        <h3 class="fs-subtitle">Submit details to get recommendations</h3>
+        <input matInput placeholder="Area" id="longitude" [(ngModel)]="data.area" name="area">
+
+        <button class="next demo-button" type="button" (click)="setLocation()">Get Location</button>
+        <input matInput placeholder="Latitude" id="latitude" [(ngModel)]="data.latitude" name="latitude">
+        <input matInput placeholder="Longitude" id="longitude" [(ngModel)]="data.longitude" name="longitude">
+        <button class="next demo-button" type="button" (click)="setSoil()">Simulate sensor</button>
+
+        <input matInput placeholder="Nitrogen" id="N" [(ngModel)]="data.N" name="N">
+        <input matInput placeholder="Phosporous" id="city" [(ngModel)]="data.P" name="P">
+        <input matInput placeholder="Potassium" id="K" [(ngModel)]="data.K" name="K">
+        <input matInput placeholder="Ph" id="ph" [(ngModel)]="data.ph" name="ph">
+        <button type="submit" class="next action-button">Submit</button>
+    </fieldset>
+
+</form>

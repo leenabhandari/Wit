@@ -1,0 +1,95 @@
+{
+    "products": [{
+            "titleString": "Integrated Nutrient Management (INM) in a Sustainable Rice-Wheat Cropping System",
+            "descriptionString": "",
+            "imgString": "https://m.media-amazon.com/images/I/51JSqE8o47L._SL160_.jpg",
+            "priceLong": 17669,
+            "diseaseString": null,
+            "cropString": "rice",
+            "urlString": "https://www.amazon.es/dp/140209874X"
+        },
+        {
+            "titleString": "Nitrogen Metabolism in Rice",
+            "descriptionString": "",
+            "imgString": "https://m.media-amazon.com/images/I/51Dx2bAvBML._SL160_.jpg",
+            "priceLong": 10580,
+            "diseaseString": null,
+            "cropString": "rice",
+            "urlString": "https://www.amazon.es/dp/1498746675"
+        },
+        {
+            "titleString": "Biological Nitrogen Fixation Associated with Rice Production: Based on selected papers presented in the International Symposium on Biological Nitrogen ... 70 (Developments in Plant and Soil Sciences)",
+            "descriptionString": "",
+            "imgString": "https://m.media-amazon.com/images/I/41iuD6J7o6L._SL160_.jpg",
+            "priceLong": 20799,
+            "diseaseString": null,
+            "cropString": "rice",
+            "urlString": "https://www.amazon.es/dp/079234197X"
+        },
+        {
+            "titleString": "Isotopic Studies of Azolla and Nitrogen Fertilization of Rice: Report of an FAO/IAEA/SIDA Co-ordinated Research Programme on Isotopic Studies of ... 51 (Developments in Plant and Soil Sciences)",
+            "descriptionString": "",
+            "imgString": "https://m.media-amazon.com/images/I/31X0kBLUMdL._SL160_.jpg",
+            "priceLong": 17679,
+            "diseaseString": null,
+            "cropString": "rice",
+            "urlString": "https://www.amazon.es/dp/0792322746"
+        },
+        {
+            "titleString": "Resource Management in Rice Systems: Nutrients : Papers presented at the International Workshop on Natural Resource Management in Rice Systems: ... 81 (Developments in Plant and Soil Sciences)",
+            "descriptionString": "",
+            "imgString": "https://m.media-amazon.com/images/I/41+JnkVpwZL._SL160_.jpg",
+            "priceLong": 2312,
+            "diseaseString": null,
+            "cropString": "rice",
+            "urlString": "https://www.amazon.es/dp/0792351991"
+        },
+        {
+            "titleString": "Biological Nitrogen Fixation Associated With Rice Production",
+            "descriptionString": "",
+            "imgString": "https://m.media-amazon.com/images/I/41ZZzD1p8gL._SL160_.jpg",
+            "priceLong": 9400,
+            "diseaseString": null,
+            "cropString": "rice",
+            "urlString": "https://www.amazon.es/dp/0882580523"
+        },
+        {
+            "titleString": "Farmers of Forty Centuries: Organic Farming in China, Korea, and Japan (English Edition)",
+            "descriptionString": "",
+            "imgString": "https://m.media-amazon.com/images/I/5171DIo-wcL._SL160_.jpg",
+            "priceLong": 1041,
+            "diseaseString": null,
+            "cropString": "rice",
+            "urlString": "https://www.amazon.es/dp/B00D2J466U"
+        },
+        {
+            "titleString": "Nutrient Deficiencies of Field Crops: Guide to Diagnosis and Management (English Edition)",
+            "descriptionString": "",
+            "imgString": "https://m.media-amazon.com/images/I/51bd8X0DTRL._SL160_.jpg",
+            "priceLong": 11056,
+            "diseaseString": null,
+            "cropString": "rice",
+            "urlString": "https://www.amazon.es/dp/B00JAF0RCM"
+        },
+        {
+            "titleString": "Achieving sustainable cultivation of rice Volume 1: Breeding for higher yield and quality (Burleigh Dodds Series in Agricultural Science Book 3) (English Edition)",
+            "descriptionString": "",
+            "imgString": "https://m.media-amazon.com/images/I/41heUQkgimL._SL160_.jpg",
+            "priceLong": 8372,
+            "diseaseString": null,
+            "cropString": "rice",
+            "urlString": "https://www.amazon.es/dp/B07QB89L8D"
+        },
+        {
+            "titleString": "The Use of Nutrients in Crop Plants (English Edition)",
+            "descriptionString": "",
+            "imgString": "https://m.media-amazon.com/images/I/51k6YSy-SAL._SL160_.jpg",
+            "priceLong": 2925,
+            "diseaseString": null,
+            "cropString": "rice",
+            "urlString": "https://www.amazon.es/dp/B008I9VKI6"
+        }
+    ],
+    "crops": "rice",
+    "diseases": "Stem rot"
+}

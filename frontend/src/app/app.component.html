@@ -1,0 +1,6 @@
+<!--app-input-form></app-input-form>
+<app-output-dashboard></app-output-dashboard-->
+<div *ngIf="loaderService.isLoading | async" class="loader-container">
+    <app-spinner-overlay></app-spinner-overlay>
+</div>
+<router-outlet></router-outlet>
