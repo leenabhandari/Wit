@@ -27,6 +27,8 @@ To implement our MVP, technology used is:
 - Amazon search API to recommend the most suited products.
 - OpenWeather API helps in weather prediction, based upon the GPS co-ordinates which are used for prediction.
 
+![Demo](https://github.com/leenabhandari/Wit/blob/main/Agri-assist%20demo.gif)
+
 For crop recommendation we have used public datasets from UCI Archive & Kaggle. Data set for disease forecasting was created using research papers of IJAI & MDPI journals. Two separate models are trained on Auto AI and output of the crop prediction is used for disease forecasting.
 
 Disease prediction alone cannot helps farmers reduce the food wastage, we need to provide them with a solution, i.e. what products can help them prevent their crops from these diseases and help in increasing production. Agri-assist picks the keywords like crop name and disease name and uses amazon search service to retrieve products available in the market. Farmers can click on the link and navigate to Amazon site, to buy these products as well.
