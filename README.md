@@ -22,7 +22,7 @@ It will also help forecast the diseases for the crop and suggest preventive meas
 
 To implement our MVP, technology used is:
 - **UI** - Angular
-- **Backend** - Springboot hosted on Heroku ( https://wit-agri.herokuapp.com/swagger-ui.html#/farmo-controller Note that paid APIs are disabled)
+- **Backend** - Springboot hosted on Heroku ( https://wit-agri.herokuapp.com/swagger-ui.html#/farmo-controller *Note that paid APIs are disabled*)
 - **IBM AutoAI** - Crop recommendation & Disease prediction
 - Amazon search API to recommend the most suited products.
 - OpenWeather API helps in weather prediction, based upon the GPS co-ordinates which are used for prediction.
