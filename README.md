@@ -42,3 +42,5 @@ Disease prediction alone cannot helps farmers reduce the food wastage, we need t
 3. DATA - Acquiring diverse and refined data for disease forecasting
 4. Offline Stores - Extending product recommendations to include local stores
 5. Pre & Post Harvest Care -Including suggestions for pre and post harvest care to improve land fertility
+
+*Note that the API secret keys file is NOT uploaded on Github.*
