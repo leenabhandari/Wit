@@ -1,5 +1,5 @@
 # Agri-Assist
-Submission for WiT hackathon 2021
+Submission for IBM Call For Code 2021 (WiT)
 
 ### Demo Video 
 https://www.youtube.com/watch?v=4IVURsN9f7Y
